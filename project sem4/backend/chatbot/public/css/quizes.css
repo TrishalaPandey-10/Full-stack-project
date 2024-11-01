@@ -1,0 +1,41 @@
+#library-page {
+    /* Styles for the library page section */
+  }
+  
+  .class-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  .class-block {
+    padding: 10px 20px;
+    margin: 10px;
+    background-color: #f0f0f0;
+    cursor: pointer;
+    /* Additional styles for the class blocks */
+  }
+  body {
+    margin: 0;
+    padding: 0;
+}
+
+#library-page {
+    position: relative;
+    height: 100vh; /* Set the height to full viewport height */
+    background-image: url('quiz.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.library-content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgba(255, 255, 255, 0.8); /* Semi-transparent white background */
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+}

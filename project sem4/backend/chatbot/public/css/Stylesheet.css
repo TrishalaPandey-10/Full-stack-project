@@ -1,0 +1,124 @@
+body{
+    margin: 0;
+    font-family:Arial, Helvetica, sans-serif;
+
+}
+.logo{
+    display:flex;
+    align-items: center;
+    margin-right: 3rem;
+}
+.logo img{
+    height:60px;
+    /* width:80px; */
+    grid-column: 1/2;
+    grid-row:1/2;
+    margin-right:10px;
+}
+.logo .images{
+display:grid;
+grid-template-columns: 1fr;
+grid-template-rows: 1fr;
+}
+.nav-title{
+    float:left;
+    font-family: Cambria, Cochin, Georgia, serif;
+    font-size: 30px;
+    margin-left: 30px;
+    margin-right: 375px;
+    color: aqua;
+}
+.navbar-menu{
+    overflow: hidden;
+    background-color: rgb(201, 215, 209);
+    height: 5%;
+    width: 100%;
+}
+.navbar-menu a{
+    float: left;
+    color: black;
+    text-align: right;
+    padding: 25px  30px;
+    margin-left: 15px;
+    text-decoration: underline;
+    font-size:17px;  
+}
+.navbar-menu a:hover{
+    
+    background-color: rgb(9, 156, 156);
+    color: rgb(29, 29, 29);
+}
+.navbar-menu a.active{
+    /* background-color: rgb(9, 156, 156); */
+    color: rgb(255, 228, 231);
+}
+.ab .cd{
+    margin-top: 30%;
+    margin-left: 50%;
+}
+
+
+.footer .btn.btn-social {
+    margin-right: 5px;
+    width: 35px;
+    height: 35px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: var(--light);
+    font-weight: normal;
+    border: 1px solid #FFFFFF;
+    border-radius: 35px;
+    transition: .3s;
+}
+
+.footer .btn.btn-social:hover {
+    color: var(--primary);
+}
+
+.footer .btn.btn-link {
+    display: block;
+    margin-bottom: 5px;
+    padding: 0;
+    text-align: left;
+    color: #FFFFFF;
+    font-size: 15px;
+    font-weight: normal;
+    text-transform: capitalize;
+    transition: .3s;
+}
+
+.footer .btn.btn-link::before {
+    position: relative;
+    content: "\f105";
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    margin-right: 10px;
+}
+
+.footer .btn.btn-link:hover {
+    letter-spacing: 1px;
+    box-shadow: none;
+}
+
+.footer .copyright {
+    padding: 25px 0;
+    font-size: 15px;
+    border-top: 1px solid rgba(256, 256, 256, .1);
+}
+
+.footer .copyright a {
+    color: var(--light);
+}
+
+.footer .footer-menu a {
+    margin-right: 15px;
+    padding-right: 15px;
+    border-right: 1px solid rgba(255, 255, 255, .1);
+}
+
+.footer .footer-menu a:last-child {
+    margin-right: 0;
+    padding-right: 0;
+    border-right: none;
+}

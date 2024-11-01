@@ -1,0 +1,103 @@
+/* Container */
+.container-fluid.p-0.mb-4 {
+    position: relative;
+    width: 100%;
+    height: 600px; /* Adjust the height as needed */
+    overflow: hidden;
+}
+
+/* Owl Carousel */
+.owl-carousel.header-carousel {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.owl-carousel-item {
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+
+.owl-carousel-item img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+/* Overlay */
+.owl-carousel-item .position-absolute {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    padding-left: 50px; /* Adjust the padding as needed */
+}
+
+/* Text Content */
+.owl-carousel-item .position-absolute .container {
+    max-width: 500px; /* Adjust the maximum width as needed */
+}
+
+.owl-carousel-item .position-absolute h5,
+.owl-carousel-item .position-absolute h1,
+.owl-carousel-item .position-absolute p,
+.owl-carousel-item .position-absolute a {
+    text-align: left;
+}
+.owl-carousel-item .position-absolute .btn-group {
+    display: flex;
+    gap: 10px; /* Adjust the gap between buttons */
+}
+/* Slide Animation */
+.owl-carousel .owl-item.active .animated {
+    animation-duration: 1s;
+    animation-fill-mode: both;
+}
+
+.owl-carousel .owl-item.active .slideInDown {
+    animation-name: slideInDown;
+}
+
+.owl-carousel .owl-item.active .slideInLeft {
+    animation-name: slideInLeft;
+}
+
+.owl-carousel .owl-item.active .slideInRight {
+    animation-name: slideInRight;
+}
+
+/* Animation Keyframes */
+@keyframes slideInDown {
+    0% {
+        transform: translateY(-100%);
+        opacity: 0;
+    }
+    100% {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+
+@keyframes slideInLeft {
+    0% {
+        transform: translateX(-100%);
+        opacity: 0;
+    }
+    100% {
+        transform: translateX(0);
+        opacity: 1;
+    }
+}
+
+@keyframes slideInRight {
+    0% {
+        transform: translateX(100%);
+        opacity: 0;
+    }
+    100% {
+        transform: translateX(0);
+        opacity: 1;
+    }
+}

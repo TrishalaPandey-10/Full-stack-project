@@ -1,0 +1,55 @@
+/* #learning-section {
+    text-align: center;
+    padding: 50px 0; /* Adjust the padding as needed */
+}
+
+.learning-container {
+    position: relative;
+    display: inline-block;
+}
+
+.learning-image {
+    max-width: 100%;
+    height: auto;
+}
+
+.coming-soon-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 24px; /* Adjust the font size as needed */
+    font-weight: bold;
+    color: white;
+    background: rgb(245, 243, 243,0.6);
+    text-shadow: 2px 2px 4px rgba(233, 225, 225, 0.5); /* Add text shadow for better visibility */
+} */
+
+
+#learning-section {
+    text-align: center;
+    padding: 50px 0; /* Adjust the padding as needed */
+}
+
+.learning-container {
+    position: relative;
+    display: inline-block;
+}
+
+.learning-image {
+    max-width: 100%;
+    height: auto;
+}
+
+.coming-soon-text {
+    position: absolute;
+    top: 10px; /* Adjust the top position as needed */
+    left: 50%;
+    transform: translateX(-50%);
+    font-size: 30px; /* Adjust the font size as needed */
+    font-weight: bold;
+    color: white;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Add text shadow for better visibility */
+    background-color: transparent; /* Set the background to transparent */
+    padding: 10px 20px; /* Add some padding for spacing */
+}

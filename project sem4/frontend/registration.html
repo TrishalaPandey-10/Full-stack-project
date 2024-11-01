@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>registeration page</title>
+    <link rel="stylesheet" href="registration.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+<body>
+    <div class="wrapper">
+    <span class="bg-animate2"></span>
+        <div class="form-box register">
+            <h2>Register here</h2>
+            <form action="/register" method="POST">
+                <div class="input-box" >
+                    <input type="text" name="Username" required>
+                    <label> Username</label>
+                    <i class='bx bxs-user'></i>
+                </div>
+                <div class="input-box">
+                    <input type="number" name="class" required>
+                    <label>Class</label>
+                    <i class='bx bx-cube-alt'></i>
+                </div>
+                <div class="input-box">
+                    <input type="email" name="email" required>
+                    <label>Email</label>
+                    <i class='bx bxs-envelope' ></i>
+                </div>
+                <div class="input-box">
+                    <input type="password" name="password"  required>
+                    <label>Password</label>
+                    <i class='bx bxs-lock-alt'></i>
+                </div>
+                <!-- <div class="input-box">
+                    <input type="password" required>
+                    <label>Confirm Password</label>
+                    <i class='bx bxs-lock-alt'></i>
+                </div> -->
+                <button type="submit" class="btn">Sign up</button>
+                <div class="logreg-link">
+                    <p>Already having an account??<a href="loginpage.html" class="registration-link">Login here!!</a></p>
+                </div>
+            </form>
+        </div>
+        <div class="info-text register">
+            <h2>Hey there!! New here??!</h2>
+            <p>Lorem ipsum dolor sit amet. Start your learning journey with us!! </p>
+        </div>
+    </div>
+    <script src="javascript.js"></script>
+</body>
+</html>
